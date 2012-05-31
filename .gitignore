@@ -1,0 +1,4 @@
+tmp/*
+Config/database.php
+!empty
+
