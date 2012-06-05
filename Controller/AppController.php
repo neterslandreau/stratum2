@@ -36,4 +36,8 @@ class AppController extends Controller {
 		'DebugKit.Toolbar',
 		
 	);
+
+	public function beforeFilter() {
+		parent::beforeFilter();
+	}
 }
