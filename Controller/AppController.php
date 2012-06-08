@@ -34,10 +34,14 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	public $components = array(
 		'DebugKit.Toolbar',
+		'Session',
 		
 	);
 
+	public $viewClass = 'Theme';
+
 	public function beforeFilter() {
 		parent::beforeFilter();
+//		$this->theme = 'CakePHP-960-fluid';
 	}
 }

@@ -74,3 +74,4 @@ CakePlugin::load('DebugKit');
 CakePlugin::load('Migrations');
 CakePlugin::load('Utils');
 CakePlugin::load('Tags');
+CakePlugin::load('Upload');
