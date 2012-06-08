@@ -42,6 +42,5 @@ class AppController extends Controller {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-//		$this->theme = 'CakePHP-960-fluid';
 	}
 }
