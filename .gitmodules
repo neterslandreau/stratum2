@@ -10,3 +10,6 @@
 [submodule "Plugin/Tags"]
 	path = Plugin/Tags
 	url = https://github.com/CakeDC/tags.git
+[submodule "Plugin/Upload"]
+	path = Plugin/Upload
+	url = https://github.com/josegonzalez/upload.git
