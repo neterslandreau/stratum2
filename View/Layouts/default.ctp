@@ -40,9 +40,9 @@
 <body>
 <div class="container_24" id="container">
 	<div class="grid_20 prefix_2 suffix_2" id="header">
-		<h1><?php echo $this->Html->link(__('CakePHP: the rapid development php framework'), 'http://cakephp.org'); ?></h1>
+		<h1><?php echo $this->Html->link(__('CakePHP: the rapid development php framework'), '/'); ?></h1>
 	</div>
-	<div class="grid_24">
+	<div class="grid_24 white">
 		<div class="grid_20 prefix_2 suffix_2">
 		<?php echo $this->Session->flash(); ?>
 		</div>
